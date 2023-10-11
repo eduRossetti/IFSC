@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formataçao de textos</title>
+
+    <style>
+        mark {
+            background-color: aqua;
+        }
+
+    
+    </style> <!-- essa tag em CSS está passando para o navegador que todos os "MARKS" vão ser na cor aqua. 
+    obs: Se for incorporado na tag vai valer os parametros da tag incorporada com CSS -->
+
+</head>
+<body>
+    <h1>Principais formatações</h1>
+
+    <h2>Negrito / destaque</h2>
+
+    <p>Nessa frase <b>texto em negrito</b> usando a tag "B"(não semantico/sem sentido apenas quis colocar em negrito)</p>
+
+    <p>Nessa frase <strong>tenho um termo em destaque</strong> usando a tag "STRONG" (semantica/com sentido de dar destaque a palavra)</p>
+
+    <p>Nessa frase temos <i style="color: blue;">um texto em italico e azul</i> usando a tag "i"(não semantica/sem sentido apenas por que quisemos colocar em italico)</p>
+    <!-- aqui tem a tag style encorporada na tag "I" -->
+    
+    <p>Nessa frase temos um <em style="color: blue;">termo em enfase</em> usando a tag "EM" (semantica / com sentido) basicamente é o italico, mas para o HTML a tag "EM" tem sentido de enfase</p>
+    <!-- aqui tem a tag style encorporada na tag "EM" -->
+
+    <!-- O ideal é usar o "EM" e o "STRONG" por que as tags "i" e "b" são do HTML4 e a tendencia é que daqui um tempo, elas parem de funcionar. (resumo: usar apenas as tags "EM" e o "STRONG") -->
+
+    <h2>Texto marcado</h2>
+
+    <p>Criar um <mark style="background-color: lime;">texto marcado</mark> usando a tag "MARK"</p>
+
+    <p>Criar um <mark>texto marcado</mark> usando a tag "MARK"</p>
+
+    <p>Criar um <mark>texto marcado</mark> usando a tag "MARK"</p>
+
+    <h2>Texto grande e texto pequeno</h2>
+
+    <p>Estamos um <big>texto grande</big> e um <small>texto pequeno</small> nesse paragrafo</p>
+    <!-- o "big" está em vermelho por que é uma tag ultrapassada do HTML4--> 
+
+    <h2>Texto deletado</h2>
+    <p>podemos marcar um <del>texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <!-- o del faz com que o texto fique riscado (como um item riscado de uma lista)-->
+
+    <h2>Texto inserido</h2>
+    <p>podemos marcar um <ins>texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois.</p>
+    <!-- a tag "ins" sublinha um texto -->
+    
+    <p>existe tambem a <u>tag U</u> (não semantica)</p>
+    <!-- uma das tags que provavel que fique ultrapassada (sublinha o texto)-->
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-image: url(imagens/fundo.png);
+    font: 16px Aria, Helvetica, sans-serif;
+}
+
+#principal{
+    color:cornflowerblue;
+    width: 900px;
+}
+
+#menu{
+    background: #c5c5b2;
+    padding: 20px;
+    color: #536276;
+}
+
+a{
+    color: #536276;
+    text-decoration: none; /*tira o underline*/
+    font-weight: bold;
+    padding: 5px; /*faz aumentar o espaçamento(afasta os elementos)*/
+} 
